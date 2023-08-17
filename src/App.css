@@ -1,3 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.app--container {
+  color: #ffffff;
+  width: 550px;
+  margin: 10px auto;
+}
+
+/* navbar */
+.navbar--container {
+  background-color: #f55a5a;
+  display: flex;
+}
+
+.middle--container {
+  margin: 1px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 14px 0px;
+  gap: 8px;
+}
+
+.nav--image {
+  height: 24px;
+  filter: invert(1);
+}
+
+.nav--p {
+  font-size: 14.4px;
+}
+
+/* Card */
+.card--container {
+  display: flex;
+  overflow: hidden;
+  color: black;
+  width: 471px;
+  height: 168px;
+  margin: 30px auto;
+}
+
+.left--container {
+  width: 126px;
+  height: 168px;
+  overflow: hidden;
+}
+.left--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  display: block;
+}
+
+.right--container {
+  margin: 15px 0px 15px 15px;
+  flex: 2;
+}
+
+.location {
+  display: flex;
+}
+
+.locationicon img {
+  height: 11px;
+  width: auto;
+}
+
+.locationicon span {
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.google--map a:link {
+  color: #918e9b;
+  margin-left: 10px;
+  font-size: 11px;
+}
+
+.content {
+  margin-top: 15px;
+}
+.content h6 {
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 10.5px;
 }
